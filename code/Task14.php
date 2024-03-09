@@ -92,7 +92,7 @@ for ($i = 0; $i < 3; $i++)
 }
 
 $arr1= array(1,2,-1,-2,3,-3);
-$arr2= array();
+$arr2= [];
 
 foreach ($arr1 as $value)
 {
@@ -112,7 +112,7 @@ echo "\n";
 //1 пункт
 $digit = 35;
 
-$arr3 = array();
+$arr3 = [];
 
 for ($i=1; $i <= 28; $i++)
 {

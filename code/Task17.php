@@ -1,5 +1,5 @@
 <?php
-$arr = array();
+$arr = [];
 function xmas($array, $c)
 {
     for ($i = 1; $i <= $c; $i++)
@@ -14,7 +14,7 @@ function xmas($array, $c)
 }
 echo xmas($arr, 4);
 
-$arr1 = array();
+$arr1 = [];
 
 function arrayFill($elem, $c)
 {
@@ -51,7 +51,7 @@ echo "<br>";
 echo "\n";
 
 $c = 1;
-$arr2d = array();
+$arr2d = [];
 for ($i = 0; $i < 3; $i++)
 {
     for ($j = &$c; $j < 10; $j++)
